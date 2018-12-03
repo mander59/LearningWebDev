@@ -35,22 +35,38 @@ h2 {
 }
 .creator-text {
     font-size: 22px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 20px;
 }
 .container {
     width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto 0 auto;
 }
 .blog-post {
-    background-color: #0000ff;
     width: 75%;
     float: left;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 .other-posts {
-    background-color: #00ff00;
     width: 25%;
     float: left;
 }
 .creator-post {
-    background-color: #ffff00;
+    padding-top: 20px;
+    border-top: 1px solid #808080;
+}
+.other {
+    margin-bottom: 40px;
+}
+.creator-post img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    float: left;
+}
+.blog-post img {
+    height: 150px;
+    width: auto;
 }
